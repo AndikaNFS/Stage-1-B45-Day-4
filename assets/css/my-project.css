@@ -1,0 +1,186 @@
+/* Navbar */
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: white; 
+    margin-bottom: 20px;
+    width: 100%;
+}
+nav {
+    display: flex;
+    flex: auto;
+    align-items: center;
+    justify-content:space-between;
+    height: 60px;
+}
+
+.nav-left ul {
+    display: flex;
+    list-style-type: none;
+    font-size: 20px;
+    align-items: center;
+}
+.nav-left ul li {
+    margin-right: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.nav-left ul a {
+    text-decoration: none;
+    color: black;
+
+}
+.nav-left ul a:link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    padding: 8px 25px 8px 25px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: black;
+}
+.nav-right a {
+    text-decoration: none; 
+    color: white; 
+    font-weight: bold; 
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+/* Content */
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form > div > label {
+    font-size: 18px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+textarea {
+    height: 20px;
+    width: 97%;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    resize: none;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.input {
+    height: 20px;
+    width: 97%;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 40px;
+    padding-top: 20px;
+}
+
+.line2 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-grow: 4;
+}
+
+.start-date {
+    flex-grow: 4;
+    padding: 5px;
+    width: 100% auto;
+    /* background-color: red; */
+}
+
+.start-date input {
+    padding: 5px;
+}
+
+.line4 form .desc-tect, .desc-tech2 {
+    /* height: 20px; */
+    width: 97%;
+    /* padding: 10px; */
+}
+
+form .desc-tech .desc1 .sub-desc1 input {
+    margin-right: 10px;
+}
+form .desc-tech2 .desc2 .sub-desc2 input {
+    margin-right: 10px;
+}
+
+.desc-tech{
+    /* background-color: aqua; */
+    display: flex;
+    flex-wrap:nowrap;
+}
+.desc-tech div {
+    /* background-color: red; */
+    flex: auto;
+    /* flex-direction: row-reverse; */
+
+}
+.desc1 {
+    /* background-color: aqua; */
+}
+.desc1 .sub-desc1 {
+    display: inline-flex;
+
+    /* background-color: red;  */
+}
+.desc1 .sub-desc1 label {
+    width: 200px;
+    /* background-color: aqua; */
+}
+
+
+.desc-tech2{
+    /* background-color: aqua; */
+    display: flex;
+    flex-wrap:nowrap;
+}
+.desc-tech2 div {
+    /* background-color: blue; */
+    flex: auto;
+    flex-grow: 1;
+    /* flex-wrap: wrap; */
+    /* flex-direction: row-reverse; */
+}
+.desc2 {
+    /* background-color: green; */
+}
+.desc2 .sub-desc2 {
+    display: inline-flex;
+    /* background-color: blue;  */
+    align-items: center;
+    justify-content:flex-start;
+    width: 100% ;
+}
+.desc2 .sub-desc2 label {
+    width: 200px;
+    /* background-color: green; */
+}
+.tombol {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}

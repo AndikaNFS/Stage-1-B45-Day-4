@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>My Project</title>
+
+   <link rel="stylesheet" href="/assets/css/my-project.css" />
+</head>
+<body>
+   <header>
+      <nav>
+          <div class="nav-left">
+              <ul type="">
+                  <li><img src="/assets/image/logo.png" width="60px" height="40px" /></li>
+                  <li><a href="index.html">Home</li></a>
+                  <li><a href="my-project.html">My Project</li></a>
+              </ul>
+          </div>
+          <div class="nav-right">
+              <a href="contact-form.html">Contact Me</a>
+          </div>
+      </nav>
+   </header>
+
+   <main>
+      <section>
+         <form action="">
+            <h1>ADD MY PROJECT</h1>
+            <div class="line1">
+               <label for="">Project Name</label>
+               <br />
+               <input type="text" class="input" id="project-name">
+            </div>
+            
+            <div class="line2">
+               <div class="start-date">
+                  <label for="">Start Date</label>
+                  <br />
+                  <input type="date" class="input" id="start-date">
+               </div>
+               <div class="start-date">
+                  <label for="">End Date</label>
+                  <br />
+                  <input type="date" style="padding-left: 15px;" class="input" id="end-date">
+               </div>
+            </div>
+
+            <div class="line3">
+               <label for="">Description</label>
+               <br />
+               <textarea id="deskripsi"></textarea>
+            </div>
+
+            <div class="line4">
+               <label for="">Technologies</label>
+               <br />
+               <form action="" class="tech">
+                  <div class="desc-tech">
+                     <div class="desc1">
+                        <div class="sub-desc1">
+                           <input type="checkbox" name="nodejs" id="nodejs" value="">
+                           <label for="">Node JS</label>
+                        <!-- </div> -->
+                        <!-- <div class="sub-desc1"> -->
+                           <input type="checkbox" name="reactjs" id="reactjs" value="">
+                           <label for="">React JS</label>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="desc-tech2">
+                     <div class="desc2">
+                        <div class="sub-desc2">
+                           <input type="checkbox" name="nextjs" id="nextjs" value="">
+                           <label for="">Next JS</label>
+                        <!-- </div>
+                        <div class="sub-desc2"> -->
+                           <input type="checkbox" name="typescript" id="typescript" value="">
+                           <label for="">TypeScript</label>
+                        </div>
+                     
+                     </div>
+                     
+                  </div>
+               </form>
+            </div>
+            <br />
+            <div class="">
+               <label for="">Upload Image</label>
+               <input type="file" src="" alt="" class="input">
+            </div>
+
+            <div class="tombol">
+               <button type="button" onclick="getData()">Submit</button>
+           </div>
+         </form>
+      </section>
+
+      <hr />
+      <div class="blog-list" id="content">
+         <div class="blog-list-item">
+            <div class="blog-image">
+               <img src="/assets/image/Foto Andika (1).jpg" alt="" width="100px" height="200px" />
+            </div>
+            <div class="blog-content">
+               <div class="blog-title">
+                  <h4>Judul blog</h4>
+                  <span>Durasi</span>
+               </div>
+               <div class="blog-article">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione iusto iste animi repellendus rem pariatur, libero sint dolorum neque adipisci explicabo deserunt! Aperiam cum natus consequuntur velit vitae ratione a.</p>
+               </div>
+               <div class="blog-select">
+                  <img src="/assets/image/logo.png" alt="" width="50px" height="60px">
+                  <img src="/assets/image/logo.png" alt="" width="50px" height="60px">
+                  <img src="/assets/image/logo.png" alt="" width="50px" height="60px">
+                  <img src="/assets/image/logo.png" alt="" width="50px" height="60px">
+               </div>
+               <div class="btn-group">
+                  <button class="btn-edit">Edit Post</button>
+                  <button class="btn-post">Post Blog</button>
+               </div>
+            </div>
+         </div>
+      </div>
+   </main>
+</body>
+</html>

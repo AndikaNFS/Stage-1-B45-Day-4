@@ -1,0 +1,292 @@
+body {
+    background-color:#e0e3e8;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+header{
+    position: relative;
+
+    top: 100;
+    right: 10;
+    left: 100;
+    background-color: white; 
+    margin-bottom: 20px;
+    border-top-width: 10px;
+}
+nav{
+    display: flex;
+    flex: auto;
+    align-items: center;
+    justify-content:space-between;
+    height: 60px;
+    /* float: left; */
+    /* width: 25%; */
+}
+
+.nav-left ul {
+    display: flex;
+    /* background-color: red; */
+    list-style-type: none;
+    font-size: 20px;
+    align-items: center;
+    padding-right: 100px;
+}
+.nav-left ul li {
+    margin-right: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.nav-left ul a {
+    text-decoration: none;
+    color: black;
+
+}
+.nav-left ul a:link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    padding: 8px 25px 8px 25px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: black;
+}
+.nav-right a {
+    text-decoration: none; 
+    color: white; 
+    font-weight: bold; 
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+/* Main Content */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form > div > label {
+    font-size: 18px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.line2 > div > label {
+    font-size: 18px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+textarea {
+    height: 20px;
+    width: 97%;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    resize: none;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+form > div > input {
+    height: 20px;
+    width: 97%;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.input {
+    height: 20px;
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 40px;
+    padding-top: 20px;
+}
+
+.line2 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* flex-grow: 1; */
+}
+
+.start-date {
+    /* flex-grow: 1; */
+    flex: auto;
+    margin-right: 30px;
+    width: 100% auto;
+    /* background-color: red; */
+}
+
+.start-date input {
+    /* padding: 5px; */
+}
+
+.end-date {
+    /* background-color: blue; */
+    flex: auto;
+
+}
+
+form .row .desc1 .sub-desc1 input {
+    margin-right: 10px;
+}
+form .row .desc2 .sub-desc2 input {
+    margin-right: 10px;
+}
+
+.line4 .desc-tech {
+    /* background-color: red; */
+}
+.line4 .desc-tech .sub-desc-1 {
+    /* background-color: aqua; */
+    display: flex;
+    width: 60%;
+
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+
+.line4 .desc-tech2 {
+    /* background-color: blue; */
+}
+.line4 .desc-tech2 .sub-desc-2 {
+    /* background-color: green; */
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-blog-image {
+    width: 100%;
+    background-color: #f4f3f3;
+    padding-left: 5px;
+    border-radius: 8px;
+    cursor:pointer;
+    margin-bottom: 20px;
+    margin-top: 5px;
+  }
+  
+  .input-blog-image label p {
+    font-size: 15px;
+    /* background-color: red; */
+  }
+  
+  .input-blog-image label {
+    cursor: pointer;
+    /* padding: 20px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+.tombol {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+.tombol button {
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+
+/* Footer */
+/* .footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+} */
+
+/* Create three equal columns that floats next to each other */
+.column {
+    display: flex;
+    justify-content: center;
+    /* background-color: red; */
+    float: left;
+    width: 100% auto;
+}
+.card {
+    border: 1px solid white;
+    box-shadow: 0px 4px 16px grey;
+    width: 25%;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+/* .card::after {
+    border: 1px solid white;
+    box-shadow: 0px 4px 16px grey;
+    width: 100%;
+    padding: 15px;
+    margin: 10px;
+
+} */
+.row {
+    display:inline-flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+  
+  /* Clear floats after the columns */
+/* .row:after {
+    content: "";
+    display: table;
+    clear: both;
+} */
+
+.icon {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    /* background-color: red; */
+}
+.icon i {
+    font-size: 30px;
+    margin: 5px;
+}
+
+.in-card p {
+    text-align: justify;
+}
+
+.button-bottom {
+    display: flex;
+}
+.button-bottom button {
+    width: 100%;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 0px 5px 0px;
+}
+
